@@ -32,7 +32,7 @@ const CreatePost = () => {
         const data = await response.json();
         setForm({ ...form, photo: `data:image/jpeg;base64,${data.photo}` });
       } catch (err) {
-        alert(err);
+        alert("Something went wrong while generating the image. Please try again with another prompt");
       } finally {
         setGeneratingImg(false);
       }
@@ -59,7 +59,7 @@ const CreatePost = () => {
         await response.json();
         navigate("/");
       } catch (error) {
-        alert(error);
+        alert("Something went wrong while uploading. Please try again with another image");
       } finally {
         setLoading(false);
       }
