@@ -1,4 +1,4 @@
-# MERN-DALL-E-Clone
+# MERN-Midjourney-DALL-E-Clone
 
 Fullstack MERN AI Image generation App powered by DALL-E AI
 
