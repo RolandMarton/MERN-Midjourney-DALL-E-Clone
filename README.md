@@ -4,6 +4,8 @@ Fullstack MERN AI Image generation App powered by DALL-E AI
 
 ## URL
 
+Status: Server has been shutdown :(
+
 https://dall-e-hub.netlify.app/
 
 https://user-images.githubusercontent.com/88943189/229751018-e7e1438a-7ea8-447a-ac57-18066b0f67a7.mp4
